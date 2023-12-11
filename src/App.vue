@@ -6,7 +6,7 @@
 
     <div>
       <input type="text" v-model="todo" placeholder="add todo..." />
-      <div>
+      <div id='btns'>
         <button @click="addTodo" id="display">Add</button>
         <button @click="clearAllTodo" id="display">Clear List</button>
       </div>
@@ -51,7 +51,7 @@ export default {
       }
     },
 
-     removeTodo(index) {
+    removeTodo(index) {
       this.todos = this.todos.filter((todo) => index !== index);
     },
 
