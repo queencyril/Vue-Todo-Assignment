@@ -136,9 +136,9 @@ ul li {
 }
 
 @media (max-width: 414px) {
-  .container {
-    margin-top: 80px;
-    max-width: 300px;
+  #btns{
+    display:flex;
+    margin-left:-20px;
   }
 }
 </style>
