@@ -51,8 +51,8 @@ export default {
       }
     },
 
-    removeTodo(todoId) {
-      this.todos = this.todos.filter((todo) => todo.id !== todoId);
+     removeTodo(index) {
+      this.todos = this.todos.filter((todo) => index !== index);
     },
 
     editTodo(index) {
